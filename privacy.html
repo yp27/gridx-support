@@ -21,7 +21,13 @@
       <div class="eyebrow">Privacy Policy · Version 1.0</div>
       <h1>Your library stays on your iPhone.</h1>
       <p class="lead">Grid.X is a local-first inventory organizer. Version 1.0 requires no account and does not operate a cloud-sync service.</p>
-      <p class="meta">Last updated: August 15, 2026</p>
+      <p class="meta">Last updated: September 4, 2026</p>
+    </section>
+
+    <section class="card">
+      <h2>User-initiated backup and restore</h2>
+      <p>Grid.X can export and import a local <code>.gridx</code> backup only when you choose. A backup may contain names, locations, notes, status, timestamps, and photos. Grid.X does not send backup files to the developer, and the developer does not upload or collect them. A third-party storage or sharing provider you select handles the file under its own privacy policy.</p>
+      <p>Grid.X validates a selected backup before replacing the entire local library. Immediately before replacement, it saves one private recovery copy on this device; a later import replaces that slot, and uninstalling Grid.X removes it. Backups and recovery copies exclude app preferences and the QR/NFC signing key, so codes and tags may need to be generated or written again after restoring on another device.</p>
     </section>
 
     <section class="card">
@@ -33,7 +39,12 @@
     <section class="card">
       <h2>No analytics, advertising, or tracking</h2>
       <p>Version 1.0 contains no advertising, analytics, cross-app tracking, or third-party tracking SDK. Grid.X does not sell user data.</p>
-      <p>AI recognition is disabled in the App Store Release of version 1.0. Photos, item data, and space data are not sent to an AI service by this release.</p>
+    </section>
+
+    <section class="card">
+      <h2>Optional AI recognition</h2>
+      <p>When you explicitly choose AI recognition while adding an item or space, Grid.X sends only the selected, resized photo and the recognition task through a secure service operated by the developer to a third-party AI processing service. The photo is used to suggest a short, editable name or note. Your local library, item history, precise location, contact information, account information, and QR/NFC signing key are not included.</p>
+      <p>Grid.X explains this before the first AI request. You can cancel, disable recognition, ignore or edit the suggestion, and continue with manual entry. Grid.X does not persist the photo or recognition response in its own application database and does not use them for advertising or tracking. The production processor is Alibaba Cloud Model Studio. Alibaba Cloud states that pay-as-you-go API data is not used for model training, while data generated from model and application calls is stored in accordance with applicable law and its service agreement.</p>
     </section>
 
     <section class="card">
@@ -63,7 +74,9 @@
 
     <section class="card language-note" lang="zh-Hans">
       <h2>隐私政策摘要</h2>
-      <p>Grid.X 1.0 无需账号，资料库保存在您的 iPhone 本地，不提供 Grid.X 云同步服务。此版本不包含广告、分析、跨 App 跟踪或第三方跟踪 SDK，也不会将照片、物品或空间资料发送至 AI 服务。</p>
+      <p>Grid.X 1.0 无需账号，资料库保存在您的 iPhone 本地，不提供 Grid.X 云同步服务。此版本不包含广告、分析、跨 App 跟踪或第三方跟踪 SDK。</p>
+      <p>仅当您主动选择 AI 识别时，所选并缩小处理的照片和识别任务才会通过开发者运营的安全服务发送给阿里云百炼，用于建议可编辑的名称或备注。Grid.X 会在首次发送前说明；您可以取消、关闭识别或继续手动输入。Grid.X 不会在自有应用数据库中持久保存照片或识别结果，也不会将其用于广告或跟踪。阿里云说明按量付费 API 数据不用于模型训练，但模型调用产生的数据会依法规和其服务协议存储。</p>
+      <p>只有在您主动选择时，Grid.X 才会导出或导入本地备份；开发者不会上传或收集备份文件。恢复会先验证文件，再替换整个资料库，并仅保留一个本机恢复副本。备份不包含偏好设置和签名密钥，因此在其他设备上可能需要重新生成二维码或写入 NFC 标签。</p>
       <p>相机、相册和 NFC 权限仅在您主动扫描标签、选择或拍摄照片、读写 Grid.X 标签时使用。如有隐私问题，请联系 <a href="mailto:my.yang.peng@icloud.com?subject=Grid.X%20隐私">my.yang.peng@icloud.com</a>。</p>
     </section>
 
